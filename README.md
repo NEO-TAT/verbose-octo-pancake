@@ -4,6 +4,12 @@
 
 1. Install Wire
 
-```bash
-go install github.com/google/wire/cmd/wire@latest
-```
+    ```bash
+    go install github.com/google/wire/cmd/wire@latest
+    ```
+
+2. Install Go Watch
+
+    ```bash
+    go install github.com/silenceper/gowatch@latest
+    ```
