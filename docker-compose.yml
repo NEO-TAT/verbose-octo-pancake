@@ -1,0 +1,18 @@
+---
+
+version: '3'
+
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: AUTO_ROLL_CALL_CACHE
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    command: "redis-server /etc/redis/redis.conf --requirepass redis"
+    volumes:
+      - redis_data:/data
+      - ./redis.conf:/etc/redis/redis.conf
+
+volumes:
+  redis_data:
