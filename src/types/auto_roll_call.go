@@ -23,3 +23,8 @@ type AutoRollCallSchedule struct {
 	// The target zuvio user for this schedule.
 	TargetUser ZUserInfo `json:"target_user"`
 }
+
+type AutoRollCallUser struct {
+	UserDeviceTokens []string  `json:"user_device_tokens,omitempty"`
+	UserInfo         ZUserInfo `json:"user_info"`
+}

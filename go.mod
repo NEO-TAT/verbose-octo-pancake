@@ -7,6 +7,7 @@ require (
 	firebase.google.com/go v3.13.0+incompatible
 	github.com/go-redis/redis/extra/rediscmd/v9 v9.0.0-rc.1
 	github.com/go-redis/redis/v9 v9.0.0-rc.1
+	github.com/mitchellh/mapstructure v1.5.0
 	github.com/sirupsen/logrus v1.9.0
 	github.com/spf13/viper v1.13.0
 	go.uber.org/fx v1.18.2
@@ -29,7 +30,6 @@ require (
 	github.com/googleapis/gax-go/v2 v2.6.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
-	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.5 // indirect
 	github.com/spf13/afero v1.9.2 // indirect

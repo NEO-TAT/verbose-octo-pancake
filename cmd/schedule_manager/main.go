@@ -16,7 +16,7 @@ func main() {
 			fb.CreateFirebaseClients,
 		),
 		fx.Invoke(
-			schedule_manager.CreateManager,
+			schedule_manager.CreateAndInitManager,
 		),
 	).Run()
 }
