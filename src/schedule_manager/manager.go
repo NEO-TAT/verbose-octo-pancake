@@ -2,7 +2,7 @@ package schedule_manager
 
 import (
 	"github.com/NEO-TAT/tat_auto_roll_call_service/pkg/fb"
-	"github.com/go-redis/redis/v9"
+	"github.com/redis/go-redis/v9"
 	"github.com/sirupsen/logrus"
 	"time"
 )

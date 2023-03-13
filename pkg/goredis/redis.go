@@ -3,8 +3,8 @@ package goredis
 import (
 	"context"
 	"github.com/NEO-TAT/tat_auto_roll_call_service/pkg/env"
-	"github.com/go-redis/redis/extra/rediscmd/v9"
-	"github.com/go-redis/redis/v9"
+	"github.com/redis/go-redis/extra/rediscmd/v9"
+	"github.com/redis/go-redis/v9"
 	"github.com/sirupsen/logrus"
 	"go.uber.org/fx"
 	"net"
